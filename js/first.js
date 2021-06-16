@@ -129,6 +129,10 @@ function reset(){
     document.getElementById('life-player-one').innerHTML = lifeone;
     lifetwo = 20;
     document.getElementById('life-player-two').innerHTML = lifetwo;
+    
+    elem = document.getElementById('mana-player-one').style.display = "none";
+    elem = document.getElementById('mana-player-two').style.display = "none";
+
 
 
 }
