@@ -208,6 +208,7 @@ margin-left: 5px;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transform: rotateZ(180deg);
 
 
 
