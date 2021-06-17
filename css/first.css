@@ -98,9 +98,19 @@ margin-left: 5px;
     border: 2px solid black;
     cursor: pointer;
 
+}
 
+.turn{
+    background-color: #c0a7d1;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 4px;
+    border: 2px solid black;
+    cursor: pointer;
 
 }
+
+
 
 #oneone{
     background-color: #c0a7d1;
