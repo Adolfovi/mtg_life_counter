@@ -96,6 +96,7 @@ margin-left: 5px;
     margin-left: 15px;
     padding: 4px;
     border: 2px solid black;
+    cursor: pointer;
 
 
 
@@ -106,7 +107,7 @@ margin-left: 5px;
     margin-right: 15px;
     padding: 4px;
     border: 2px solid black;
-
+    cursor: pointer;
 
 
 }
@@ -114,7 +115,7 @@ margin-left: 5px;
 
 #reinicio{
     font-size: 26px;
-
+    cursor: pointer;
 }
 
 
