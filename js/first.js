@@ -2,6 +2,7 @@ var elem;
 var a = true;
 var lifeone = 20;
 var lifetwo = 20;
+var numrandom;
 
 
 
@@ -155,4 +156,22 @@ function twenty() {
 
     elem = document.getElementById('mana-player-one').style.display = "none";
     elem = document.getElementById('mana-player-two').style.display = "none";
+}
+
+
+
+
+function whostart(){
+
+    numrandom = Math.floor(Math.random()* 2);
+
+    if(numrandom == 0){
+        alert("HA SALIDO CARA!!");
+    }else{
+        alert("HA SALIDO CRUZ!!");
+    }
+
+
+
+
 }
