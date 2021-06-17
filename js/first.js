@@ -8,112 +8,112 @@ var lifetwo = 20;
 
 
 
-function plusone(){
+function plusone() {
     lifeone = lifeone + 1;
-    document.getElementById('life-player-one').innerHTML = lifeone;    
-    
+    document.getElementById('life-player-one').innerHTML = lifeone;
+
 
 }
 
 
-function minusone(){
+function minusone() {
     lifeone = lifeone - 1;
-    document.getElementById('life-player-one').innerHTML = lifeone;    
-    
+    document.getElementById('life-player-one').innerHTML = lifeone;
+
 
 }
 
 
-function plustwo(){
+function plustwo() {
     lifetwo = lifetwo + 1;
-    document.getElementById('life-player-two').innerHTML = lifetwo;    
-    
+    document.getElementById('life-player-two').innerHTML = lifetwo;
+
 
 }
 
-function minustwo(){
+function minustwo() {
     lifetwo = lifetwo - 1;
-    document.getElementById('life-player-two').innerHTML = lifetwo;    
-    
+    document.getElementById('life-player-two').innerHTML = lifetwo;
+
 
 }
 
 
 
 function hiddenmanaone() {
-    
-    
+
+
 
     if (a) {
         elem = document.getElementById('mana-player-one').style.display = "flex";
         a = false;
-    
-}else{
-    elem = document.getElementById('mana-player-one').style.display = "none";
-    a = true;
-    
-}
+
+    } else {
+        elem = document.getElementById('mana-player-one').style.display = "none";
+        a = true;
+
+    }
 
 }
 
 
 
 function hiddenmanatwo() {
-    
-    
+
+
 
     if (a) {
         elem = document.getElementById('mana-player-two').style.display = "flex";
         a = false;
-    
-}else{
-    elem = document.getElementById('mana-player-two').style.display = "none";
-    a = true;
-    
-}
+
+    } else {
+        elem = document.getElementById('mana-player-two').style.display = "none";
+        a = true;
+
+    }
 
 }
 
 
 
-function isredone(){
+function isredone() {
     document.getElementById('top-block').style.backgroundColor = "#de0000";
 }
 
-function isgreenone(){
+function isgreenone() {
     document.getElementById('top-block').style.backgroundColor = "#008c28";
 }
 
-function isblueone(){
+function isblueone() {
     document.getElementById('top-block').style.backgroundColor = "#00aab7";
 }
 
-function isblackone(){
+function isblackone() {
     document.getElementById('top-block').style.backgroundColor = "#232323";
 }
 
-function iswhiteone(){
+function iswhiteone() {
     document.getElementById('top-block').style.backgroundColor = "#e0e0e0";
 }
 
 
-function isredtwo(){
+function isredtwo() {
     document.getElementById('bottom-block').style.backgroundColor = "#de0000";
 }
 
-function isgreentwo(){
+function isgreentwo() {
     document.getElementById('bottom-block').style.backgroundColor = "#008c28";
 }
 
-function isbluetwo(){
+function isbluetwo() {
     document.getElementById('bottom-block').style.backgroundColor = "#00aab7";
 }
 
-function isblacktwo(){
+function isblacktwo() {
     document.getElementById('bottom-block').style.backgroundColor = "#232323";
 }
 
-function iswhitetwo(){
+function iswhitetwo() {
     document.getElementById('bottom-block').style.backgroundColor = "#e0e0e0";
 }
 
@@ -124,15 +124,35 @@ function iswhitetwo(){
 
 
 
-function reset(){
+function reset() {
     lifeone = 20;
     document.getElementById('life-player-one').innerHTML = lifeone;
     lifetwo = 20;
     document.getElementById('life-player-two').innerHTML = lifetwo;
-    
+
     elem = document.getElementById('mana-player-one').style.display = "none";
     elem = document.getElementById('mana-player-two').style.display = "none";
+    location.reload();
+}
 
 
 
+function fourty() {
+    lifeone = 40;
+    lifetwo = 40;
+    document.getElementById('life-player-one').innerHTML = lifeone;
+    document.getElementById('life-player-two').innerHTML = lifetwo;
+
+    elem = document.getElementById('mana-player-one').style.display = "none";
+    elem = document.getElementById('mana-player-two').style.display = "none";
+}
+
+function twenty() {
+    lifeone = 20;
+    lifetwo = 20;
+    document.getElementById('life-player-one').innerHTML = lifeone;
+    document.getElementById('life-player-two').innerHTML = lifetwo;
+
+    elem = document.getElementById('mana-player-one').style.display = "none";
+    elem = document.getElementById('mana-player-two').style.display = "none";
 }
