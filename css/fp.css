@@ -1,0 +1,169 @@
+#main{
+
+display: flex;
+flex-direction: column;
+padding: 5px;
+align-items: center;
+}
+
+#container{
+    background-color: #585375;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+}
+
+#containerone{
+    background-color: #585858;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px solid black;
+
+
+
+
+}
+
+#containerone button{
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#containertwo button{
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#containerthree button{
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#containerfour button{
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#containertwo{
+    background-color: #585858;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px solid black;
+
+
+}
+
+#containerthree{
+    background-color: #585858;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px solid black;
+
+
+}
+
+#containerfour{
+    background-color: #585858;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 2px solid black;
+
+
+
+}
+
+.life{
+
+background-color: #bdbdbd;
+padding: 25px;
+font-size: 50px;
+border: 2px solid black;
+font-family: Arial;
+
+
+
+}
+
+#container-nav{
+        display: flex;
+        background-color: #585375;
+        padding: 10px;
+        font-family: Arial;
+
+
+
+
+}
+
+
+#twotwo{
+    background-color: #c0a7d1;
+    margin-left: 15px;
+    padding: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.turn{
+    background-color: #c0a7d1;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+
+
+#oneone{
+    background-color: #c0a7d1;
+    margin-right: 15px;
+    padding: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+
+
+}
+
+
+#reinicio{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+#goback{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: #585375;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
