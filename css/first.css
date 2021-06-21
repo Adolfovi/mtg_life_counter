@@ -56,7 +56,6 @@ background-color: #585858;
 padding: 20px;
 display: flex;
 border: 2px solid black;
-transform: rotateZ(180deg);
 }
 
 #top-block button{
@@ -177,7 +176,6 @@ margin-left: 5px;
         justify-content: center;
         position: absolute;
         top: 0;
-        transform: rotateZ(180deg);
 }
 
 #mana-player-two{
@@ -209,7 +207,6 @@ margin-left: 5px;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    transform: rotateZ(180deg);
 
 
 
@@ -224,4 +221,30 @@ margin-left: 5px;
 
 
 
+}
+
+
+
+
+
+
+
+#goback{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: #585375;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.stl{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    background-color: #420099;
+    padding: 5px;
+    border-radius: 5px;
 }
