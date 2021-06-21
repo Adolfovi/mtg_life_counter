@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG LIFE COUNTER</title>
+    <link rel="stylesheet" type="text/css" href="css/fp.css">
+    <script src="js/fp.js"></script>
+    <link rel="icon" href="img/lp.ico" type="image/ico">
+</head>
+
+<body>
+    <div id="main">
+        <div id="goback"><a href="index.html" style="text-decoration: none; color: white;">MTG</a></div>
+        <div id="container">
+            <div id="containerone">
+                <button onclick="plusone()" class="btn">+</button>
+                <div id="pone" class="life">20</div>
+                <button onclick="minusone()" class="btn">-</button>
+            </div>
+
+            <div id="containertwo">
+                <button onclick="plustwo()" class="btn">+</button>
+                <div id="ptwo" class="life">20</div>
+                <button onclick="minustwo()" class="btn">-</button>
+
+            </div>
+
+            <div id="containerthree">
+                <button onclick="plusthree()" class="btn">+</button>
+                <div id="pthree" class="life">20</div>
+                <button  onclick="minusthree()" class="btn">-</button>
+
+            </div>
+
+            <div id="containerfour">
+                <button onclick="plusfour()" class="btn">+</button>
+                <div id="pfour" class="life">20</div>
+                <button onclick="minusfour()" class="btn">-</button>
+            </div>
+
+            <div id="container-nav">
+                <div class="turn" onclick="whostart()">💰</div>
+                <span id="reinicio" onclick="onlyreset()"> 🔁 </span>
+                <div class="turn" onclick="whostart()">💰</div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
