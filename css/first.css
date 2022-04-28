@@ -175,7 +175,7 @@ margin-left: 5px;
         flex-wrap: wrap;
         justify-content: center;
         position: absolute;
-        top: 0;
+        top: 12rem;
 }
 
 #mana-player-two{
@@ -184,7 +184,7 @@ margin-left: 5px;
     flex-wrap: wrap;
     justify-content: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 10rem;
 }
 
 #mana-player-two div{
