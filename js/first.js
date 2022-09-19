@@ -78,15 +78,15 @@ function hiddenmanatwo() {
 
 
 function isredone() {
-    document.getElementById('top-block').style.backgroundColor = "#de0000";
+    document.getElementById('top-block').style.backgroundColor = "#990000";
 }
 
 function isgreenone() {
-    document.getElementById('top-block').style.backgroundColor = "#008c28";
+    document.getElementById('top-block').style.backgroundColor = "#005719";
 }
 
 function isblueone() {
-    document.getElementById('top-block').style.backgroundColor = "#00aab7";
+    document.getElementById('top-block').style.backgroundColor = "#005f87";
 }
 
 function isblackone() {
@@ -94,20 +94,20 @@ function isblackone() {
 }
 
 function iswhiteone() {
-    document.getElementById('top-block').style.backgroundColor = "#e0e0e0";
+    document.getElementById('top-block').style.backgroundColor = "#fffb94";
 }
 
 
 function isredtwo() {
-    document.getElementById('bottom-block').style.backgroundColor = "#de0000";
+    document.getElementById('bottom-block').style.backgroundColor = "#990000";
 }
 
 function isgreentwo() {
-    document.getElementById('bottom-block').style.backgroundColor = "#008c28";
+    document.getElementById('bottom-block').style.backgroundColor = "#005719";
 }
 
 function isbluetwo() {
-    document.getElementById('bottom-block').style.backgroundColor = "#00aab7";
+    document.getElementById('bottom-block').style.backgroundColor = "#005f87";
 }
 
 function isblacktwo() {
@@ -115,7 +115,7 @@ function isblacktwo() {
 }
 
 function iswhitetwo() {
-    document.getElementById('bottom-block').style.backgroundColor = "#e0e0e0";
+    document.getElementById('bottom-block').style.backgroundColor = "#fffb94";
 }
 
 
